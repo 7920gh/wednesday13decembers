@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Wednesday13decembers</h1>
+
+<div id="wednesday13decembers">
+  <% @wednesday13decembers.each do |wednesday13december| %>
+    <%= render wednesday13december %>
+    <p>
+      <%= link_to "Show this wednesday13december", wednesday13december %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New wednesday13december", new_wednesday13december_path %>
