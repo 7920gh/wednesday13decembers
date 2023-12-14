@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   
   
   #  root "#home"
-  get /wednesday13decembers/new
+  get "/wednesday13decembers/new"
   
   
   
